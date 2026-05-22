@@ -1,0 +1,46 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo verde-grama -->
+  <rect width="1200" height="630" fill="#0d3b1f"/>
+  
+  <!-- Grid sutil -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(212,160,23,0.06)" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Borda dourada -->
+  <rect x="24" y="24" width="1152" height="582" rx="20" fill="none" stroke="#d4a017" stroke-width="2" opacity="0.4"/>
+
+  <!-- Emoji bola (grande, centro-esquerda) -->
+  <text x="200" y="380" font-size="280" text-anchor="middle">⚽</text>
+
+  <!-- BRASFOOT (título) -->
+  <text x="660" y="240" font-family="monospace,serif" font-size="110" font-weight="bold"
+        fill="#d4a017" text-anchor="middle" letter-spacing="8">BRASFOOT</text>
+
+  <!-- Subtítulo -->
+  <text x="660" y="310" font-family="Arial,sans-serif" font-size="34"
+        fill="rgba(245,245,240,0.7)" text-anchor="middle" letter-spacing="2">
+    GERENCIADOR DE FUTEBOL BRASILEIRO
+  </text>
+
+  <!-- Linha separadora -->
+  <line x1="440" y1="345" x2="880" y2="345" stroke="#d4a017" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Features -->
+  <text x="540" y="410" font-family="Arial,sans-serif" font-size="28" fill="rgba(245,245,240,0.8)" text-anchor="middle">
+    🏆 Carreira Solo
+  </text>
+  <text x="780" y="410" font-family="Arial,sans-serif" font-size="28" fill="rgba(245,245,240,0.8)" text-anchor="middle">
+    👥 Até 8 Amigos
+  </text>
+  <text x="660" y="460" font-family="Arial,sans-serif" font-size="28" fill="rgba(245,245,240,0.8)" text-anchor="middle">
+    🔓 Gratuito · Sem login · Offline-first
+  </text>
+
+  <!-- URL -->
+  <text x="660" y="545" font-family="monospace" font-size="26"
+        fill="rgba(212,160,23,0.6)" text-anchor="middle" letter-spacing="1">
+    brasfoot.vercel.app
+  </text>
+</svg>
